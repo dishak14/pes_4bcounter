@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-In this repository we have followed the rtl to tapeout flow for a 4 bit up down counter. The code for 4 bit up down counter is written in the Hardware Discriptive Langugae Verilog. The code has been provided in the files for this repository. We have written a testbench file in verilog to test the simulation results for our 4 bit up down counter.
+In this repository we have followed the rtl to tapeout flow for a 4 bit up down counter. The code for 4 bit up down counter is written in the Hardware Discriptive Language (Verilog). The code has been provided in the files for this repository. We have written a testbench file in verilog to test the simulation results for our 4 bit up down counter.
 
 # SIMULATION RESULTS 
 
