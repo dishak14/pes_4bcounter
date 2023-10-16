@@ -1,42 +1,26 @@
-# pes_4bcounter
+# 4 BIT UP - DOWN COUNTER
 
-module tb_counter;
+## INTRODUCTION
 
-    // Inputs
-    reg Clk;
-    reg reset;
-    reg UpOrDown;
+In this repository we have followed the rtl to tapeout flow for a 4 bit up down counter. The code for 4 bit up down counter is written in the Hardware Discriptive Langugae Verilog. The code has been provided in the files for this repository. We have written a testbench file in verilog to test the simulation results for our 4 bit up down counter.
 
-    // Outputs
-    wire [3:0] Count;
+# SIMULATION RESULTS 
 
-    // Instantiate the Unit Under Test (UUT)
-    iiitb_4bbc uut (
-        .Clk(Clk), 
-        .reset(reset), 
-        .UpOrDown(UpOrDown), 
-        .Count(Count)
-    );
+In order to compile the verilog design file and the verilog test bench file we have used the command
 
-    // Generate clock with 10 ns clk period.
-    initial Clk = 0;
-    always #5 Clk = ~Clk;
+```iverilog 4bcounter.v 4bcounter_tb.v```
 
-    initial begin
-        // Add $dumpfile and $dumpvars
-        $dumpfile("output.vcd"); // Specify the name of the VCD file
-        $dumpvars(0); // Dump all signals
+ This creates a ./a.out file in our directory 
 
-        // Apply Inputs
-        reset = 0;
-        UpOrDown = 0;
-        #300;
-        UpOrDown = 1;
-        #300;
-        reset = 1;
-        UpOrDown = 0;
-        #100;
-        reset = 0;  
-    end
+![image](https://github.com/dishak14/pes_4bcounter/assets/92496153/4d7382f9-3999-4c0c-b662-a407c05b95f0)
 
-endmodule
+run ```./a.out``` on the terminal to get the output.vcd file.
+
+Now we will run this output.vcd file on gtkwave using the command 
+
+```gtkwave output.vcd```
+
+Hence, we get the following simulation results
+
+
+
