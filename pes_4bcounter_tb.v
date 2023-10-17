@@ -19,8 +19,10 @@ module tb_counter;
 //Generate clock with 10 ns clk period.
     initial Clk = 0;
     always #5 Clk = ~Clk;
-    
     initial begin
+    $dumpfile("output.vcd");
+    $dumpvars(0);
+    
         // Apply Inputs
         reset = 0;
         UpOrDown = 0;
