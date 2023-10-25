@@ -26,7 +26,10 @@ Now we will run this output.vcd file on gtkwave using the command
 
 ```gtkwave output.vcd```
 
-Hence, we get the following simulation results
+Hence, we get the following simulation results (Pre Synthesis simulation result )
+
+![image](https://github.com/dishak14/pes_4bcounter/assets/92496153/cd254ea4-97ca-4100-8775-79689bd3ecd0)
+
 
 ## Synthesis result 
 
