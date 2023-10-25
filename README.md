@@ -52,6 +52,16 @@ For generating netlist : ```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.li
 
 ![image](https://github.com/dishak14/pes_4bcounter/assets/92496153/7d6a54ff-11af-4a79-84aa-a7d5376666b7)
 
+## GLS Simulation
+
+We run the .net file created after yosys synthesis and the testbench file using the iverilog command to generate a waveform and compare it with the waveform generated in the beginning.
+
+we use the command : ``` iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v 4bcounter_net.v 4bcounter_tb.v ls ```
+
+we again get the a.out file and we can run it on gtkwave as done previously to get the following results 
+
+![image](https://github.com/dishak14/pes_4bcounter/assets/92496153/cd254ea4-97ca-4100-8775-79689bd3ecd0)
+
 
 
 
