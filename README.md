@@ -11,6 +11,7 @@ This counter can operate in two modes: up-counting and down-counting. In the up-
 The code for 4 bit up down counter is written in the Hardware Discriptive Language (Verilog). The code has been provided in the files for this repository. We have written a testbench file in verilog to test the simulation results for our 4 bit up down counter.
 
 <details><summary>RTL TO GDS </summary>
+ 
 ## SIMULATION RESULTS 
 
 In order to compile the verilog design file and the verilog test bench file we have used the command
@@ -69,6 +70,7 @@ we again get the a.out file and we can run it on gtkwave as done previously to g
 
 <details><summary> PHYSICAL DESIGN </summary>
 
+# Physical Design using OpenLane
  
 OpenLane is an open-source digital ASIC (Application-Specific Integrated Circuit) design flow framework used to automate the process of designing and fabricating digital integrated circuits. OpenLane aims to make custom ASIC design more accessible to a broader range of engineers and researchers.The goal of OpenLANE is to make the ASIC design flow more accessible to a broader community. By providing an open-source framework, it allows for collaboration, innovation, and knowledge sharing in the field of chip design. Additionally, it leverages the SkyWater 130nm process as a reference PDK, enabling users to create designs using this technology.
 OpenLANE's automation helps reduce the barriers to ASIC design by providing a framework that streamlines the process.
@@ -78,6 +80,14 @@ For the physical design of the 4 bit counter, we will be working on a pdk varian
 * fd : skywater foundary
 * sc : standard cell
 * hd(high density) : variant of pdk
-  
+
+In order to enter the interactive mode of OpenLane , type ```docker``` in the terminal, followed by ```./flow.tcl -interactive ```, and then type ```package require openlane 0.9``` to import all the packages.
+
+
+![interactive](https://github.com/dishak14/pes_4bcounter/assets/92496153/150d5d12-5a88-4b2d-a20b-e9dddab5cd3b)
+
+
+
+
 
 </details>
