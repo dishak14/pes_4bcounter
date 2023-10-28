@@ -67,10 +67,9 @@ we again get the a.out file and we can run it on gtkwave as done previously to g
 
 </details>
 
-<details><summary> PHYSICAL DESIGN </summary></details>
-
-OpenLane is an open-source digital ASIC (Application-Specific Integrated Circuit) design flow framework used to automate the process of designing and fabricating digital integrated circuits. OpenLane aims to make custom ASIC design more accessible to a broader range of engineers and researchers.
-
-
+<details><summary> PHYSICAL DESIGN </summary>
+OpenLane is an open-source digital ASIC (Application-Specific Integrated Circuit) design flow framework used to automate the process of designing and fabricating digital integrated circuits. OpenLane aims to make custom ASIC design more accessible to a broader range of engineers and researchers.The goal of OpenLANE is to make the ASIC design flow more accessible to a broader community. By providing an open-source framework, it allows for collaboration, innovation, and knowledge sharing in the field of chip design. Additionally, it leverages the SkyWater 130nm process as a reference PDK, enabling users to create designs using this technology.
+OpenLANE's automation helps reduce the barriers to ASIC design by providing a framework that streamlines the process.
 
 
+</details>
