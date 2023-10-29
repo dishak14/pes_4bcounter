@@ -1,4 +1,4 @@
-module iiitb_4bbc(
+module counter(
     Clk,
     reset,
     UpOrDown,  //high for UP counter and low for Down counter
