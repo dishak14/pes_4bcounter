@@ -9,7 +9,7 @@ module tb_counter;
     wire [3:0] Count;
 
     // Instantiate the Unit Under Test (UUT)
-    iiitb_4bbc uut (
+        counter uut (
         .Clk(Clk), 
         .reset(reset), 
         .UpOrDown(UpOrDown), 
