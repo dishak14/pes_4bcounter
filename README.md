@@ -87,6 +87,33 @@ In order to enter the interactive mode of OpenLane , type ```docker``` in the te
 ![interactive](https://github.com/dishak14/pes_4bcounter/assets/92496153/150d5d12-5a88-4b2d-a20b-e9dddab5cd3b)
 
 
+prep design
+![prepdesign](https://github.com/dishak14/pes_4bcounter/assets/92496153/51bcfe53-f890-48b5-9960-fbacce0c7f4b)
+
+run_synthesis
+![run_synthesis](https://github.com/dishak14/pes_4bcounter/assets/92496153/4109e622-fbdd-4079-a236-a2e9aab8931b)
+
+floorplan exists
+![floorplanexists](https://github.com/dishak14/pes_4bcounter/assets/92496153/7fdbc807-c762-4a94-a264-3bb95ee86faf)
+
+
+floorplan on magic
+![floorplanmagiclayout](https://github.com/dishak14/pes_4bcounter/assets/92496153/4b90989b-af90-41ed-9bdd-36980de33966)
+
+
+comm1
+![comments1](https://github.com/dishak14/pes_4bcounter/assets/92496153/b2a57219-4d51-43ba-aed6-45f6aebd9c4a)
+
+comm2
+![comments2](https://github.com/dishak14/pes_4bcounter/assets/92496153/99926c2d-5c05-4c81-8c7d-1998e45983a0)
+
+comm3
+![comments3](https://github.com/dishak14/pes_4bcounter/assets/92496153/f61885b8-4390-424f-b573-ce4ee7b6d879)
+
+
+
+
+
 
 
 
