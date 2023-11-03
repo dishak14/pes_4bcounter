@@ -133,6 +133,26 @@ Sta-log
 
 ![stalog2](https://github.com/dishak14/pes_4bcounter/assets/92496153/096c13ac-edb1-41bd-8f06-c92f1733f458)
 
+## Floorplan
+
+* In the openlane shell , execute the command ```run_floorplan```.
+
+![floorplan](https://github.com/dishak14/pes_4bcounter/assets/92496153/7b913309-60c5-4b19-8495-bdb56cc3ed05)
+
+* Checking in the ```OpenLane/designs/pes_counter3/runs/RUN_2023.11.03_03.59.42/results/floorplan``` directory if a .def file exists.
+
+![floorplan2](https://github.com/dishak14/pes_4bcounter/assets/92496153/40cf8363-37b3-4b85-a5f0-61c68d56480d)
+
+* As it exists, we will run the command ```magic -T /home/disha/Downloads/sky130A.tech lef read ../../tmp/merged.nom.lef def read pes_counter3.def &``` to view the layout on magic.
+  
+![floorplanlayout](https://github.com/dishak14/pes_4bcounter/assets/92496153/93372eb2-717c-4656-a771-a5df18a7a4e0)
+
+  
+![floorplanlayout1](https://github.com/dishak14/pes_4bcounter/assets/92496153/0b5ae9b2-be8f-45e1-ba40-c2ed430e484c)
+
+
+![floorplanlayout2](https://github.com/dishak14/pes_4bcounter/assets/92496153/aa1cef82-7c3b-4128-b68f-9c993d311705)
+
 
 
 
