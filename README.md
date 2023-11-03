@@ -92,6 +92,19 @@ For the physical design of the 4 bit counter, we will be working on a pdk varian
 
 ![directory](https://github.com/dishak14/pes_4bcounter/assets/92496153/60df62c7-8fa7-4203-8b04-346e162e8a11)
 
+## Opening Openlane terminal
+
+* In the Openlane directory type, ```make mount```.
+* Openlane contianer appears, type ```./flow.tcl -interactive```.
+* Open openlane package using ```package require openlane 0.9```.
+
+![openlane](https://github.com/dishak14/pes_4bcounter/assets/92496153/9447d164-8eec-44a5-9505-adb5d9cddad4)
+
+
+## Synthesis 
+
+
+
 
 prep design
 ![prepdesign](https://github.com/dishak14/pes_4bcounter/assets/92496153/51bcfe53-f890-48b5-9960-fbacce0c7f4b)
