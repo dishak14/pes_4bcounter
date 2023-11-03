@@ -153,6 +153,31 @@ Sta-log
 
 ![floorplanlayout2](https://github.com/dishak14/pes_4bcounter/assets/92496153/aa1cef82-7c3b-4128-b68f-9c993d311705)
 
+## Placement
+
+```run_placement```
+
+![placement](https://github.com/dishak14/pes_4bcounter/assets/92496153/2510a7aa-170b-4f0c-90bf-0fade50f86f4)
+
+![placement1](https://github.com/dishak14/pes_4bcounter/assets/92496153/25c5ae3d-e351-4875-a1fb-f892fc79060e)
+
+
+![placement2](https://github.com/dishak14/pes_4bcounter/assets/92496153/6fef7acf-46e9-4437-ae2e-a5c4aa9d004e)
+
+![floorplan3](https://github.com/dishak14/pes_4bcounter/assets/92496153/bbb69670-d7e7-49f1-a9a7-6c76b25023e9)
+
+
+
+## Clock Tree Synthesis 
+
+![run_ccts](https://github.com/dishak14/pes_4bcounter/assets/92496153/ce2ed980-aba5-4631-8dcb-b69333082fcd)
+
+
+
+
+
+
+
 
 
 
