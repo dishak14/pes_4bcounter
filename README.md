@@ -172,10 +172,28 @@ Sta-log
 
 ![run_ccts](https://github.com/dishak14/pes_4bcounter/assets/92496153/ce2ed980-aba5-4631-8dcb-b69333082fcd)
 
+skew report
+
+
+![cts1](https://github.com/dishak14/pes_4bcounter/assets/92496153/0ee6f8b6-02c6-431a-a81a-f3d0baeb7a75)
+
+![cts2](https://github.com/dishak14/pes_4bcounter/assets/92496153/208292c5-5699-4be9-bcfb-5aa905a6d5b9)
+
+
+![cts333](https://github.com/dishak14/pes_4bcounter/assets/92496153/06bd56e3-19ad-4018-9319-5c728499c76c)
+
+
+## Routing
+
+```run_routing```
+
+![routing](https://github.com/dishak14/pes_4bcounter/assets/92496153/56d32fad-8518-4e16-bed2-ca0f9fa4d276)
 
 
 
 
+
+![routing2](https://github.com/dishak14/pes_4bcounter/assets/92496153/024520e3-6b85-4cab-8554-c6fa9bd50c44)
 
 
 
