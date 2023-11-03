@@ -81,10 +81,16 @@ For the physical design of the 4 bit counter, we will be working on a pdk varian
 * sc : standard cell
 * hd(high density) : variant of pdk
 
-In order to enter the interactive mode of OpenLane , type ```docker``` in the terminal, followed by ```./flow.tcl -interactive ```, and then type ```package require openlane 0.9``` to import all the packages.
+## Preparing design directory for execution
 
+* navigate to Openlane's design folder using ```cd Openlane/designs```.
+* In this directory, make another directory which will be your design directory. In our case we have used ```mkdir pes_counter3```.
+* In pes_counter3, write a config.json file.
+  ![config](https://github.com/dishak14/pes_4bcounter/assets/92496153/fdb90120-0956-4a6a-889e-13090c2650da)
+* Make another directory called src using ```mkdir src```. In this directory add your verilog design and give the same name as that of your directory (pes_counter3.v).
+  By the end, your design ddirectory is supposed to look like this
 
-![interactive](https://github.com/dishak14/pes_4bcounter/assets/92496153/150d5d12-5a88-4b2d-a20b-e9dddab5cd3b)
+![directory](https://github.com/dishak14/pes_4bcounter/assets/92496153/60df62c7-8fa7-4203-8b04-346e162e8a11)
 
 
 prep design
