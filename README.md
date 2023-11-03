@@ -104,30 +104,37 @@ For the physical design of the 4 bit counter, we will be working on a pdk varian
 ## Synthesis 
 
 
+* Use ```prep -design <design_directory>``` to prepare your design for running synthesis.
+ 
+
+![prep_design](https://github.com/dishak14/pes_4bcounter/assets/92496153/47c3aca5-3df8-403f-8e03-b49bca9e6034)
+
+* ```run_synthesis```
+  
+ ![synthesis](https://github.com/dishak14/pes_4bcounter/assets/92496153/b25ec04d-15c9-4594-b608-d980d5cf123f)
+
+ Synthesis-log :
+
+![synthesis1](https://github.com/dishak14/pes_4bcounter/assets/92496153/856e8eff-300d-426c-b303-008505351e5b)
 
 
-prep design
-![prepdesign](https://github.com/dishak14/pes_4bcounter/assets/92496153/51bcfe53-f890-48b5-9960-fbacce0c7f4b)
 
-run_synthesis
-![run_synthesis](https://github.com/dishak14/pes_4bcounter/assets/92496153/4109e622-fbdd-4079-a236-a2e9aab8931b)
-
-floorplan exists
-![floorplanexists](https://github.com/dishak14/pes_4bcounter/assets/92496153/7fdbc807-c762-4a94-a264-3bb95ee86faf)
+![syyynthesis2](https://github.com/dishak14/pes_4bcounter/assets/92496153/0bec9d9b-87fa-4d3e-8e8d-60f18e295d1c)
 
 
-floorplan on magic
-![floorplanmagiclayout](https://github.com/dishak14/pes_4bcounter/assets/92496153/4b90989b-af90-41ed-9bdd-36980de33966)
+![synthesis3](https://github.com/dishak14/pes_4bcounter/assets/92496153/c371cbe8-c46e-4427-9f96-8cb288cc1217)
 
 
-comm1
-![comments1](https://github.com/dishak14/pes_4bcounter/assets/92496153/b2a57219-4d51-43ba-aed6-45f6aebd9c4a)
+![synthesis4](https://github.com/dishak14/pes_4bcounter/assets/92496153/f41837c8-ec94-4c71-a063-bc475d9f2591)
 
-comm2
-![comments2](https://github.com/dishak14/pes_4bcounter/assets/92496153/99926c2d-5c05-4c81-8c7d-1998e45983a0)
+Sta-log
 
-comm3
-![comments3](https://github.com/dishak14/pes_4bcounter/assets/92496153/f61885b8-4390-424f-b573-ce4ee7b6d879)
+![stalog](https://github.com/dishak14/pes_4bcounter/assets/92496153/db8d9460-96e1-4af9-9e08-1f60329c9a6b)
+
+![stalog2](https://github.com/dishak14/pes_4bcounter/assets/92496153/096c13ac-edb1-41bd-8f06-c92f1733f458)
+
+
+
 
 
 
