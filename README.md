@@ -1,3 +1,5 @@
+![image](https://github.com/dishak14/pes_4bcounter/assets/92496153/dea69c11-1c9d-4aa3-bd56-b5df0530dc64)
+
 # 4 BIT UP - DOWN COUNTER
 
 ## INTRODUCTION
