@@ -197,6 +197,12 @@ skew report
 
 
 
+![Screenshot from 2023-11-05 11-21-33](https://github.com/dishak14/pes_4bcounter/assets/92496153/ca144428-13a8-4637-a0d5-ba457b4f33ee)
+
+
+![Screenshot from 2023-11-05 11-22-05](https://github.com/dishak14/pes_4bcounter/assets/92496153/a0c45bf2-1b3c-4bb8-bded-e23c3a2f586b)
+
+
 
 
 
