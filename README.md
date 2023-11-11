@@ -209,6 +209,11 @@ skew report
 
 
 
+![everything](https://github.com/dishak14/pes_4bcounter/assets/92496153/0d5999a4-320a-4eb3-ab8e-789c27b68fca)
+
+![proper](https://github.com/dishak14/pes_4bcounter/assets/92496153/6dad56a3-e24b-41dc-85e1-bffabb3febf2)
+
+
 
 
 
